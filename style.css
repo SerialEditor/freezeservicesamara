@@ -137,10 +137,10 @@ button.contacts-open {
 .main-title::after {
   content: "";
   position: absolute;
-  top: 22px;
-  right: 28px;
-  width: 80px;
-  height: 80px;
+  top: 12px;
+  right: 16px;
+  width: 2em;
+  height: 2em;
   background: url("img/snowflake.svg") no-repeat 50% 50%;
   background-size: 50px auto; 
   background-color: #fff;
@@ -153,6 +153,6 @@ button.contacts-open {
   text-align: center;
   margin-top: 4px;
   margin-bottom: 8px;
-  color: #302683;
+  color: black;
 }
 
