@@ -1,0 +1,158 @@
+body {
+  max-width: 1480px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+.page-header {
+  margin-bottom: 20px;
+  background-color:#0099ef;
+}
+
+.wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.page-header .wrapper {
+  padding: 3px 3px 0;
+}
+
+.main-menu-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5px;
+}
+
+.nav-menu {
+  flex-basis: auto;
+  flex-grow: 1;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.button-wrapper {
+  flex-basis: 160px;
+  flex-grow: 1;
+  text-align: right;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-menu ul {
+  display: flex;
+}
+
+.nav-menu li {
+  flex-basis: auto;
+  flex-grow: 1;
+  text-align: center;
+  padding: 0 0.2em;
+  border-right: 2px solid #fff;
+  transform: skew(-20deg);
+}
+
+.nav-menu li:last-child {
+  border-right: none;
+
+}
+.nav-menu a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  transform: skew(20deg);
+}
+
+.nav-menu li:hover {
+  background-color: #288be6;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+  cursor: pointer; 
+}
+
+label {
+  display: inline-block;
+  width: 75px;
+  text-align: center;
+  margin-right: 5px;
+  color: #fff;
+}
+
+label:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button.contacts {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  padding: 0;
+  background-color: transparent;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+button.contacts-open {
+  background-color: #e8e8e8;
+}
+
+.main-title-wrapper {
+  min-height: 150px;
+  padding-top: 5px;
+  border: 2px solid lightgray;
+}
+
+.main-title {
+  position: relative;
+  max-width: 490px;
+  font-size: 2em;
+  line-height: normal;
+  text-align: left;
+  white-space: pre;
+  color: #fff;
+  text-transform: capitalize;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #e67e22;
+  box-shadow: #e8e8e8 0 5px 6px; 
+}
+
+.main-title::after {
+  content: "";
+  position: absolute;
+  top: 22px;
+  right: 28px;
+  width: 80px;
+  height: 80px;
+  background: url("img/snowflake.svg") no-repeat 50% 50%;
+  background-size: 50px auto; 
+  background-color: #fff;
+  border: 4px solid #e8e8e8; 
+  border-radius: 6px;
+  transform: rotate(-20deg);
+}
+
+.main-title-wrapper p {
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  color: #302683;
+}
+
