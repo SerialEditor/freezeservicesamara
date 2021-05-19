@@ -137,8 +137,8 @@ button.contacts-open {
 .main-title::after {
   content: "";
   position: absolute;
-  top: 12px;
-  right: 16px;
+  top: 8px;
+  right: 8px;
   width: 2em;
   height: 2em;
   background: url("img/snowflake.svg") no-repeat 50% 50%;
@@ -150,6 +150,7 @@ button.contacts-open {
 }
 
 .main-title-wrapper p {
+  font-size: 14px;
   text-align: center;
   margin-top: 4px;
   margin-bottom: 8px;
