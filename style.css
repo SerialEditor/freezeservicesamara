@@ -155,6 +155,7 @@ button.contacts-open {
   font-size: 14px;
   text-align: justify;
   margin: 8px auto;
+  padding: 0 8px;
   color: black;
 }
 
