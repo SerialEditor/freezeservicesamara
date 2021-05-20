@@ -118,6 +118,7 @@ button.contacts-open {
   padding-top: 5px;
   border: 2px solid lightgray;
   border-left: none;
+  border-right: none;
 }
 
 .main-title {
