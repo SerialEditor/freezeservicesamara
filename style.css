@@ -159,3 +159,7 @@ button.contacts-open {
   color: black;
 }
 
+.main-title-wrapper span {
+  text-decoration: underline;
+} 
+
