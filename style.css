@@ -151,10 +151,10 @@ button.contacts-open {
 }
 
 .main-title-wrapper p {
+  max-width: 460px;
   font-size: 14px;
-  text-align: center;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  text-align: justify;
+  margin: 8px auto;
   color: black;
 }
 
