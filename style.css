@@ -8,6 +8,7 @@ body {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 ul {
@@ -155,7 +156,7 @@ input.phone-numbers:checked ~ .contacts-list {
   height: 125px;
   margin: -1px auto 36px;
   padding: 5px;
-  background-color: #e67d22;
+  background: radial-gradient(ellipse closest-side, orange, #e67b1e);
 }
 
 .main-title span {
@@ -163,6 +164,11 @@ input.phone-numbers:checked ~ .contacts-list {
   font-size: 32px;
   line-height: normal;
   color: #fff;
+}
+
+.main-title span:not(:last-of-type) {
+  text-shadow:
+  0 0 2px #000;
 }
 
 .main-title span:nth-of-type(2) {
@@ -194,7 +200,7 @@ input.phone-numbers:checked ~ .contacts-list {
   width: 2em;
   height: 2em;
   background: url("img/snowflake.svg") no-repeat 50% 50%;
-  background-size: 50px auto; 
+  background-size: 80% auto; 
   background-color: #fff;
   border: 4px solid #e8e8e8; 
   border-radius: 6px;
@@ -212,5 +218,11 @@ input.phone-numbers:checked ~ .contacts-list {
 
 .main-title-wrapper p span {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 280px) and (max-width: 375px) {
+  .main-title-wrapper {border-left: none; border-right: none;}
+  .main-title::after {width: 1.7em; height: 1.7em;}
+  .main-title-wrapper p {padding: 0 8px;}
 }
 
