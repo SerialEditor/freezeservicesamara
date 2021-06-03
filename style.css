@@ -63,7 +63,7 @@ ul {
 }
 
 .nav-menu li.current-page {
-  border: 2px solid #fff;
+  text-decoration: underline;
 }
 
 .nav-menu a {
