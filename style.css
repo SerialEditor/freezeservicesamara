@@ -62,8 +62,9 @@ ul {
 
 }
 
-.nav-menu li.current-page a {
-  text-decoration: underline;
+.nav-menu li.current-page {
+  margin-left: -2px;
+  border: 2px solid #fff;
 }
 
 .nav-menu a {
@@ -220,7 +221,7 @@ input.phone-numbers:checked ~ .contacts-list {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 280px) and (max-width: 375px) {
+@media screen and (min-width: 280px) and (max-width: 425px) {
   .main-title-wrapper {border-left: none; border-right: none;}
   .main-title::after {width: 1.7em; height: 1.7em;}
   .main-title-wrapper p {padding: 0 8px;}
