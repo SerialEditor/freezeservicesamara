@@ -180,7 +180,7 @@ input.phone-numbers:checked ~ .contacts-list {
   text-align: center;
   margin: 7px auto 0;
   color: #fff;
-  background-color: skyblue;
+  background-color: #0099ee;
 }
 
 .main-title::after {
