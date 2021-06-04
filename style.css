@@ -124,7 +124,7 @@ input.phone-numbers {
 
 .contacts-list li:first-child {
   line-height: 1.4;
-  color: #aaa;
+  color: #777;
 }
 
 .contacts-list a {
