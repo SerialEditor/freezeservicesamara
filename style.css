@@ -106,7 +106,6 @@ input.phone-numbers {
 }
 
 .contacts-wrapper label:hover {
-  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -162,11 +161,7 @@ input.phone-numbers:checked ~ .contacts-list {
   font-size: 32px;
   line-height: normal;
   color: #fff;
-}
-
-.main-title span:not(:last-of-type) {
-  text-shadow:
-  0 0 2px #000;
+  text-shadow: 0 0 2px #000;
 }
 
 .main-title span:nth-of-type(2) {
@@ -184,9 +179,8 @@ input.phone-numbers:checked ~ .contacts-list {
   font-style: italic;
   text-align: center;
   margin: 7px auto 0;
-  color: firebrick;
-  background-color: #fff;
-  border: 1px solid #000;
+  color: #fff;
+  background-color: #0099ef;
 }
 
 .main-title::after {
