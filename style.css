@@ -175,13 +175,15 @@ input.phone-numbers:checked ~ .contacts-list {
 .main-title span:last-of-type {
   width: 75%;
   font-size: 28px;
+  line-height: 1.4;
   letter-spacing: 8px;
   font-style: italic;
   text-align: center;
   margin: 7px auto 0;
   color: #fff;
   background-color: #0099ff;
-  box-shadow: 0 0 2px #fff;
+  outline: 1px solid #fff;
+  outline-offset: -3px;
 }
 
 .main-title::after {
