@@ -217,6 +217,36 @@ input.phone-numbers:checked ~ .contacts-list {
   text-decoration: underline;
 }
 
+.price-page-title {
+  max-width: 490px;
+  font-family: "Georgia", serif;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.price-page-title .target-part {
+  display: inline-block;
+  position: relative;
+  padding: 4px 8px;
+  font-style: italic;
+  color: #5e3c3c;
+  background-color: #fff;
+}
+
+.price-page-title .target-part::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: -22%;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 2em;
+  background: #0d6dc7;
+  border-radius: 50%;
+  transform: rotate(-12deg);
+}
+
 .page-footer {
   background-color: rgb(17, 7, 100);
 }
