@@ -147,6 +147,7 @@ input.phone-numbers:checked ~ .contacts-list {
 
 .main-page-title {
   position: relative;
+  font-size: inherit;
   max-width: 490px;
   height: 125px;
   margin: -1px auto 36px;
@@ -159,7 +160,7 @@ input.phone-numbers:checked ~ .contacts-list {
 
 .main-page-title span {
   display: block;
-  font-size: 32px;
+  font-size: 2em;
   line-height: normal;
   color: #fff;
   text-shadow: 0 0 2px #000;
@@ -175,7 +176,7 @@ input.phone-numbers:checked ~ .contacts-list {
 
 .main-page-title span:last-of-type {
   width: 75%;
-  font-size: 28px;
+  font-size: 1.7em;
   line-height: 1.4;
   letter-spacing: 8px;
   font-style: italic;
@@ -193,8 +194,8 @@ input.phone-numbers:checked ~ .contacts-list {
   position: absolute;
   top: 12px;
   right: 12px;
-  width: 2em;
-  height: 2em;
+  width: 4em;
+  height: 4em;
   background: url("img/snowflake.svg") no-repeat 50% 50%;
   background-size: 80% auto; 
   background-color: #fff;
@@ -229,7 +230,7 @@ input.phone-numbers:checked ~ .contacts-list {
   line-height: normal;
   margin-left: 4vw;
   padding: 8px 12px;
-  vertical-align: center;
+  vertical-align: middle;
   color: lemonchiffon;
   text-decoration: none;
 }
