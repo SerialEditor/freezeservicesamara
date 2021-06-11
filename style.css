@@ -217,6 +217,35 @@ input.phone-numbers:checked ~ .contacts-list {
   text-decoration: underline;
 }
 
+.promo {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.promo h2 {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  color: darkmagenta;
+}
+
+.promo p:not(:last-child) {
+  flex-basis: 165px;
+  flex-grow: 1;
+  font-weight: 600;
+  margin: 8px;
+  padding-top: 25%;
+  padding-bottom: 10px;
+  color: indianred;
+  text-transform: uppercase;
+}
+
+.promo p:last-child {
+  width: 100%;
+  font-size: 18px;
+}
+
 .price-page-title {
   position: relative;
   max-width: 490px;
@@ -281,4 +310,6 @@ input.phone-numbers:checked ~ .contacts-list {
   .main-title-wrapper {border-left: none; border-right: none;}
   .main-page-title::after {width: 3.4em; height: 3.4em;}
   .main-title-wrapper p {padding: 0 8px;}
+  .promo {flex-direction: column;}
+  .promo p:not(:last-child) {flex-basis: auto; flex-grow: 0; padding-top: 140px;}
 }
