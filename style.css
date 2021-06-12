@@ -142,6 +142,7 @@ input.phone-numbers:checked ~ .contacts-list {
 }
 
 .main-title-wrapper {
+  margin-bottom: 22px;
   border: 1px solid lightgrey;
 }
 
@@ -183,7 +184,7 @@ input.phone-numbers:checked ~ .contacts-list {
   text-align: center;
   margin: 7px auto 0;
   color: #fff;
-  background-color: darkmagenta;
+  background-color: rgba(30, 143, 255, 0.8);
   box-shadow: 0 0 2px #fff;
   outline: 1px solid #fff;
   outline-offset: -3px;
@@ -229,7 +230,7 @@ input.phone-numbers:checked ~ .contacts-list {
   margin: 0;
   padding: 10px 0;
   color: #fff;
-  background-color: #0099ff;
+  background-color: #288be6;
   text-shadow: 0 0 2px #000;
 }
 
@@ -242,6 +243,11 @@ input.phone-numbers:checked ~ .contacts-list {
   padding-bottom: 10px;
   color: indianred;
   text-transform: uppercase;
+}
+
+.promo p:last-child {
+  background: url("img/full-list.svg") no-repeat center 50px;
+  background-size: 40% auto; 
 }
 
 .price-page-title {
