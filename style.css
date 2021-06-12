@@ -245,7 +245,7 @@ input.phone-numbers:checked ~ .contacts-list {
 }
 
 .promo p:last-child {
-  background: url("img/full-list.svg") no-repeat center center;
+  background: url("img/full-list.svg") no-repeat center 45px;
   background-size: 40% auto; 
 }
 
