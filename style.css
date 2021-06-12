@@ -228,8 +228,7 @@ input.phone-numbers:checked ~ .contacts-list {
   flex-basis: 100%;
   margin: 0;
   padding: 10px 0;
-  color: lightmagenta;
-  text-shadow: 0 0 2px #000;
+  color: magenta;
 }
 
 .promo p {
