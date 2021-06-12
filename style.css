@@ -220,6 +220,7 @@ input.phone-numbers:checked ~ .contacts-list {
 
 .promo {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
   margin-bottom: 20px;
@@ -236,7 +237,6 @@ input.phone-numbers:checked ~ .contacts-list {
 
 .promo p {
   flex-basis: 180px;
-  flex-grow: 1;
   font-weight: 600;
   margin: 8px;
   padding-top: 180px;
