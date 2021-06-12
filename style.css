@@ -236,7 +236,7 @@ input.phone-numbers:checked ~ .contacts-list {
 }
 
 .promo p {
-  flex-basis: 196px;
+  flex-basis: 208px;
   font-weight: 600;
   padding-top: 180px;
   padding-bottom: 10px;
