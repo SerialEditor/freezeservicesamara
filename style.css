@@ -183,7 +183,7 @@ input.phone-numbers:checked ~ .contacts-list {
   text-align: center;
   margin: 7px auto 0;
   color: #fff;
-  background-color: #0099ff;
+  background-color: darkmagenta;
   box-shadow: 0 0 2px #fff;
   outline: 1px solid #fff;
   outline-offset: -3px;
@@ -228,7 +228,9 @@ input.phone-numbers:checked ~ .contacts-list {
   flex-basis: 100%;
   margin: 0;
   padding: 10px 0;
-  color: darkmagenta;
+  color: #fff;
+  background-color: #0099ff;
+  text-shadow: 0 0 2px #000;
 }
 
 .promo p {
