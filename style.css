@@ -249,6 +249,33 @@ input.phone-numbers:checked ~ .contacts-list {
   background-size: 40% auto; 
 }
 
+.location {
+  margin-bottom: 10px;
+  padding: 0 5px; 
+}
+
+.location p {
+  margin: 15px auto;
+  padding: 0 8px;
+}
+
+.locality-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.locality-list li {
+  text-align: center;
+  padding: 12px 8px;
+}
+
+.locality-list li:first-child {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+
 .price-page-title {
   position: relative;
   max-width: 490px;
@@ -313,4 +340,5 @@ input.phone-numbers:checked ~ .contacts-list {
   .main-title-wrapper {border-left: none; border-right: none;}
   .main-page-title::after {width: 3.4em; height: 3.4em;}
   .main-title-wrapper p {padding: 0 8px;}
+  .locality-list {grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));}
 }
