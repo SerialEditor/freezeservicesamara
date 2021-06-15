@@ -266,9 +266,10 @@ input.phone-numbers:checked ~ .contacts-list {
 
 .locality-list li {
   justify-self: center;
+  max-width: 270px;
   font-size: 18px;
   text-align: center;
-  padding: 15px 30px;
+  padding: 15px;
   border: 3px solid indianred;
 }
 
