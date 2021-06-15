@@ -192,8 +192,6 @@ input.phone-numbers:checked ~ .contacts-list {
   color: #fff;
   background-color: rgba(30, 143, 255, 0.8);
   box-shadow: 0 0 2px #fff;
-  outline: 1px solid #fff;
-  outline-offset: -3px;
 }
 
 .main-page-title::after {
@@ -239,6 +237,8 @@ input.phone-numbers:checked ~ .contacts-list {
   color: #fff;
   background-color: #288be6;
   text-shadow: 0 0 2px #000;
+  outline: 1px solid #fff;
+  outline-offset: -3px;
 }
 
 .promo p {
@@ -300,7 +300,6 @@ input.phone-numbers:checked ~ .contacts-list {
 .price-page-title {
   position: relative;
   max-width: 490px;
-  font-family: "Georgia", serif;
   margin: 40px auto;
   text-align: center;
 }
@@ -318,7 +317,7 @@ input.phone-numbers:checked ~ .contacts-list {
   position: relative;
   padding: 4px 8px;
   font-style: italic;
-  color: #5e3c3c;
+  color: rgb(17, 7, 100);
   background-color: rgba(255, 255, 255, 0.9);
 }
 
