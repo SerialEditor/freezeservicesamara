@@ -341,5 +341,5 @@ input.phone-numbers:checked ~ .contacts-list {
   .main-title-wrapper {border-left: none; border-right: none;}
   .main-page-title::after {width: 3.4em; height: 3.4em;}
   .locality-list {grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));}
-  .locality-list {justify-self: stretch;}
+  .locality-list li {justify-self: stretch;}
 }
