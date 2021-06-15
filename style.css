@@ -299,6 +299,7 @@ input.phone-numbers:checked ~ .contacts-list {
 
 .price-page-title {
   position: relative;
+  font-family: "Georgia", serif;
   max-width: 490px;
   margin: 40px auto;
   text-align: center;
