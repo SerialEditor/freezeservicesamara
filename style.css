@@ -260,13 +260,11 @@ input.phone-numbers:checked ~ .contacts-list {
 
 .locality-list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(240px, 1fr));
   gap: 15px;
 }
 
 .locality-list li {
-  justify-self: center;
-  max-width: 270px;
   font-size: 18px;
   text-align: center;
   padding: 15px;
@@ -275,6 +273,7 @@ input.phone-numbers:checked ~ .contacts-list {
 
 .locality-list li:first-child {
   grid-column: 1 / -1;
+  justify-self: center;
 }
 
 .price-page-title {
