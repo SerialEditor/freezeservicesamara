@@ -260,13 +260,12 @@ input.phone-numbers:checked ~ .contacts-list {
 
 .locality-list {
   display: grid;
-  grid-template-columns: repeat(2, minmax(240px, 400px));
+  grid-template-columns: repeat(2, minmax(240px, 1fr));
   gap: 15px;
   padding: 0 8px;
 }
 
 .locality-list li {
-  justify-self: center;
   font-size: 18px;
   text-align: center;
   padding: 15px;
@@ -275,6 +274,7 @@ input.phone-numbers:checked ~ .contacts-list {
 
 .locality-list li:first-child {
   grid-column: 1 / -1;
+  justify-self: center;
 }
 
 .price-page-title {
@@ -341,5 +341,5 @@ input.phone-numbers:checked ~ .contacts-list {
   .main-title-wrapper {border-left: none; border-right: none;}
   .main-page-title::after {width: 3.4em; height: 3.4em;}
   .locality-list {grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));}
-  .locality-list li {justify-self: stretch;}
+  .locality-list li:first-child {justify-self: auto;}
 }
