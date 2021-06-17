@@ -270,14 +270,14 @@ input.phone-numbers:checked ~ .contacts-list {
   text-transform: uppercase;
 }
 
-.promo p:-of-type(4) {
+.promo p:nth-of-type(4) {
   background: url("img/full-list.svg") no-repeat center 45px;
   background-size: 40% auto; 
 }
 
 p.warranty {
   flex-basis: 280px;
-  align-self: center;
+  align-self: flex-end;
   font-size: 18px;
   padding: 10px;
   padding-left: 70px;
