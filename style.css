@@ -157,7 +157,7 @@ input.phone-numbers:checked ~ .contacts-list {
   font-size: inherit;
   max-width: 490px;
   height: 125px;
-  margin: -1px auto 36px;
+  margin: -1px auto 42px;
   padding: 5px;
   background: -webkit-radial-gradient(ellipse closest-side, orange, #e67b1e);
   background: -o-radial-gradient(ellipse closest-side, orange, #e67b1e);
@@ -209,10 +209,11 @@ input.phone-numbers:checked ~ .contacts-list {
 }
 
 .main-title-wrapper p {
+  width: 85vw;
   max-width: 460px;
-  line-height: 1.3;
   text-align: justify;
-  margin: 16px auto;
+  margin: 0 auto;
+  margin-bottom: 16px;
   padding: 0 8px;
   color: #000;
 }
@@ -270,7 +271,7 @@ input.phone-numbers:checked ~ .contacts-list {
 }
 
 .location p {
-  margin: 15px auto;
+  margin: 16px auto;
   padding: 0 8px;
   text-align: justify;
   text-indent: 8px;
