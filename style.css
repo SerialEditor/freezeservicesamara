@@ -191,7 +191,7 @@ input.phone-numbers:checked ~ .contacts-list {
   margin: 7px auto 0;
   color: #fff;
   background-color: rgba(30, 143, 255, 0.8);
-  box-shadow: 0 0 2px #fff;
+  border: 3px solid rgb(17, 7, 100);
 }
 
 .main-page-title::after {
