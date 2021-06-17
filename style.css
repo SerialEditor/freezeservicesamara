@@ -270,9 +270,21 @@ input.phone-numbers:checked ~ .contacts-list {
   text-transform: uppercase;
 }
 
-.promo p:last-child {
+.promo p:last-of-type {
   background: url("img/full-list.svg") no-repeat center 45px;
   background-size: 40% auto; 
+}
+
+p.warranty {
+  flex-basis: 280px;
+  align-self: center;
+  font-size: 18px;
+  padding: 10px;
+  padding-left: 70px;
+  text-align: left;
+  font-style: italic;
+  background: url("img/warranties.svg") no-repeat 10px 50%;
+  background-size: 60px auto;
 }
 
 .location {
