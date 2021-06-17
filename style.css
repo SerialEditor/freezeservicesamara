@@ -191,7 +191,7 @@ input.phone-numbers:checked ~ .contacts-list {
   margin: 7px auto 0;
   color: #fff;
   background-color: rgba(30, 143, 255, 0.8);
-  border: 4px solid royalblue;
+  border: 4px solid steelblue;
 }
 
 .main-page-title::after {
@@ -209,7 +209,7 @@ input.phone-numbers:checked ~ .contacts-list {
 }
 
 .main-title-wrapper p {
-  max-width: 460px;
+  width: 460px;
   font-size: 14px;
   line-height: 1.3;
   text-align: justify;
@@ -359,6 +359,7 @@ input.phone-numbers:checked ~ .contacts-list {
 
 @media screen and (min-width: 280px) and (max-width: 425px) {
   .main-title-wrapper {border-left: none; border-right: none;}
+  .main-title-wrapper p {max-width: 280px;}
   .main-page-title::after {width: 3.4em; height: 3.4em;}
   .locality-list {grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));}
   .locality-list li:first-child {justify-self: auto;}
