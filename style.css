@@ -359,7 +359,7 @@ input.phone-numbers:checked ~ .contacts-list {
 
 @media screen and (min-width: 280px) and (max-width: 425px) {
   .main-title-wrapper {border-left: none; border-right: none;}
-  .main-title-wrapper p {max-width: 280px;}
+  .main-title-wrapper p {max-width: 460px;}
   .main-page-title::after {width: 3.4em; height: 3.4em;}
   .locality-list {grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));}
   .locality-list li:first-child {justify-self: auto;}
