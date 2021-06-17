@@ -209,7 +209,7 @@ input.phone-numbers:checked ~ .contacts-list {
 }
 
 .main-title-wrapper p {
-  width: 85vw;
+  width: 90vw;
   max-width: 460px;
   line-height: normal;
   text-align: justify;
