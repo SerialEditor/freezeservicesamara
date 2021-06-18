@@ -11,6 +11,10 @@ img {
   height: auto;
 }
 
+section {
+  margin-bottom: 10px;
+}
+
 h2 {
   width: 50%;
   margin: 0 auto; 
@@ -40,6 +44,14 @@ caption {
 th {
   padding: 10px;
   border: 3px solid lightgrey; 
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 .page-header {
@@ -247,7 +259,6 @@ input.phone-numbers:checked ~ .contacts-list {
   justify-content: space-around;
   flex-wrap: wrap;
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .promo h2 {
@@ -270,25 +281,35 @@ input.phone-numbers:checked ~ .contacts-list {
   text-transform: uppercase;
 }
 
-.promo p:nth-of-type(4) {
-  background: url("img/full-list.svg") no-repeat center 45px;
-  background-size: 40% auto; 
+.advantages ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-p.warranty {
-  flex-basis: 280px;
-  align-self: flex-end;
-  font-size: 18px;
-  padding: 10px;
+.advantages li {
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding: 8px;
   padding-left: 70px;
+  color: indianred;
   text-align: left;
   font-style: italic;
+  text-transform: uppercase;
   background: url("img/warranties.svg") no-repeat 10px 50%;
   background-size: 60px auto;
 }
 
+.all-brands {
+  flex-basis: 350px;
+}
+
+.warranty {
+  flex-basis: 260px;
+}
+
 .location {
-  margin-bottom: 10px;
   padding-bottom: 10px;
 }
 
@@ -317,6 +338,7 @@ p.warranty {
 }
 
 .locality-list li {
+  justify-self: center;
   font-weight: 600;
   text-align: center;
   padding: 8px;
@@ -326,7 +348,6 @@ p.warranty {
 
 .locality-list li:first-child {
   grid-column: 1 / -1;
-  justify-self: center;
 }
 
 .price-page-title {
@@ -335,14 +356,6 @@ p.warranty {
   max-width: 490px;
   margin: 40px auto;
   text-align: center;
-}
-
-.price-page-title .visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
 }
 
 .price-page-title .target-part {
@@ -393,5 +406,8 @@ p.warranty {
   .main-title-wrapper {border-left: none; border-right: none;}
   .main-page-title::after {width: 3.4em; height: 3.4em;}
   .locality-list {grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));}
-  .locality-list li:first-child {justify-self: auto;}
+}
+
+@media screen and (min-width: 428px) and (max-width: 768px) {
+  .advantages ul {justify-content: space-around;}
 }
