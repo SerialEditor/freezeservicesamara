@@ -15,6 +15,11 @@ section {
   margin-bottom: 10px;
 }
 
+aside {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
 h2 {
   width: 50%;
   margin: 0 auto; 
@@ -31,19 +36,19 @@ table {
   width: 90vw;
   max-width: 650px;
   margin: 15px;
-  border: 3px solid lightgrey;
+  border: 2px solid lightgrey;
   border-collapse: collapse;
 }
 
 caption {
-  font-size: 18px;
-  padding: 12px 0;
-  color: darkmagenta;
+  padding: 8px;
+  font-weight: 600;
+  color: #555;
 }
 
-th {
+th, td {
   padding: 10px;
-  border: 3px solid lightgrey; 
+  border: 2px solid #999; 
 }
 
 .visually-hidden {
@@ -338,6 +343,7 @@ input.phone-numbers:checked ~ .contacts-list {
 }
 
 .locality-list li {
+  position: relative;
   justify-self: center;
   font-weight: 600;
   text-align: center;
@@ -346,8 +352,87 @@ input.phone-numbers:checked ~ .contacts-list {
   color: indianred;
 }
 
+.locality-list li::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 9px;
+  left: -18px;
+  width: 18px;
+  height: 18px;
+  background-color:orange;
+  border-radius: 50%;
+  box-shadow: -8px 0 1px indianred;
+}
+
 .locality-list li:first-child {
   grid-column: 1 / -1;
+}
+
+.support {
+  margin-bottom: 25px;
+  padding: 30px 0;
+  background-color: rgba(30, 143, 255, 0.9);
+}
+
+.support h2 {
+  position: relative;
+  width: 75%;
+  max-width: 420px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding: 12px;
+  color: rgba(28, 100, 172, 0.9);
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.support ::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0; 
+}
+
+.support h2::after {
+  top: 100%;
+  left: 3px;
+  border: 18px solid #fff;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  transform: skewX(-30deg);
+}
+
+.support p {
+  position: relative;
+  width: 75%;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: 30px;
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.support p::after {
+  top: 100%;
+  right: 3px;
+  border: 18px solid #fff;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform: skewX(30deg);
+}
+
+.support a {
+  display: inline-block;
+  padding: 4px 12px;
+  vertical-align: baseline;
+  color: #fff;
+  background-color: #288be6;
+  border-radius: 14px;
 }
 
 .price-page-title {
@@ -382,6 +467,13 @@ input.phone-numbers:checked ~ .contacts-list {
   background: linear-gradient(12deg, #0d6dc7, #008080);
   border-radius: 50%;
   transform: rotate(-12deg);
+}
+
+aside a {
+  display: inline-block;
+  margin-left: 5vw;
+  padding: 4px 12px;
+  text-decoration: none;
 }
 
 .page-footer {
