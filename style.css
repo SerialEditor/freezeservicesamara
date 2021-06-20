@@ -302,7 +302,7 @@ input.phone-numbers:checked ~ .contacts-list {
   text-align: left;
   font-style: italic;
   text-transform: uppercase;
-  background: url("img/warranties.svg") no-repeat 10px 50%;
+  background: url("img/mark.svg") no-repeat 10px 50%;
   background-size: 60px auto;
 }
 
