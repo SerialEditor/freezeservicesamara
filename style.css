@@ -69,10 +69,13 @@ th, td {
   padding: 3px 3px 0;
 }
 
+.logo-container {
+  margin-bottom: 10px;
+}
+
 .main-menu-wrapper {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 8px;
 }
 
 .navigation-menu {
