@@ -477,9 +477,13 @@ aside a {
   display: inline-block;
   margin-left: 10px;
   padding: 8px 32px;
+  padding-left: 12px;
   text-decoration: none;
   color: #fff;
   text-shadow: 0 0 1px #000;
+  background: url("img/move.svg") no-repeat;
+  background-position: right 2px top 50%;
+  background-size: 20px auto;
   background-color:rgb(35, 23, 145);
   border: 1px solid #000;
 }
