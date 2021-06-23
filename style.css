@@ -11,7 +11,7 @@ img {
   height: auto;
 }
 
-section {
+section, .logo-container {
   margin-bottom: 10px;
 }
 
@@ -67,10 +67,6 @@ th, td {
 
 .page-header .wrapper {
   padding: 3px 3px 0;
-}
-
-.logo-container {
-  margin-bottom: 10px;
 }
 
 .main-menu-wrapper {
