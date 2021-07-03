@@ -463,6 +463,7 @@ input.phone-numbers:checked ~ .contacts-list {
 }
 
 .support-page-title {
+  position: relative;
   width: 85%;
   max-width: 800px;
   margin: 0 auto;
