@@ -297,8 +297,8 @@ input.phone-numbers:checked ~ .contacts-list {
   text-align: left;
   font-style: italic;
   text-transform: uppercase;
-  background: url("img/mark.svg") no-repeat 10px 50%;
-  background-size: 60px auto;
+  background: url("img/mark.svg") no-repeat 20px 50%;
+  background-size: 48px auto;
 }
 
 .all-brands {
@@ -333,7 +333,6 @@ input.phone-numbers:checked ~ .contacts-list {
   grid-template-columns: 1fr 1fr;
   gap: 15px;
   padding-left: 12px;
-  border: 1px solid #e8e8e8;
 }
 
 .locality-list li {
@@ -494,7 +493,6 @@ input.phone-numbers:checked ~ .contacts-list {
 aside {
   margin-bottom: 30px;
   padding: 10px 0;
-  border: 1px solid lightgrey;
 }
 
 aside a {
