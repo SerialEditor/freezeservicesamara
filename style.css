@@ -354,9 +354,8 @@ input.phone-numbers:checked ~ .contacts-list {
   left: -18px;
   width: 18px;
   height: 18px;
-  background-color:orange;
+  background-color: orange;
   border-radius: 50%;
-  box-shadow: -8px 0 1px indianred;
 }
 
 .locality-list li:first-child {
