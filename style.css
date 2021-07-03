@@ -472,7 +472,6 @@ input.phone-numbers:checked ~ .contacts-list {
   text-align: center;
   background: url("img/pointer.png") no-repeat;
   background-size: 105px auto;
-  border: 2px solid #0d6dc7d5;
 }
 
 aside {
