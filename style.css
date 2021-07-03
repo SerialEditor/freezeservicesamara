@@ -37,7 +37,7 @@ table {
 }
 
 caption {
-  font-size: 20;
+  font-size: 20px;
   font-weight: 500;
   padding: 8px;
 }
@@ -69,6 +69,7 @@ th, td {
   padding: 3px 3px 0;
 }
 
+/* Не предусмотрено добавление или изменение контента главного меню */
 .main-menu-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -100,7 +101,7 @@ th, td {
 }
 
 .navigation-menu li.current-page {
-  background-color: #288be6;
+  background-color: #4273cf;
 }
 
 .navigation-menu a {
@@ -156,8 +157,7 @@ input.phone-numbers {
   max-width: 250px;
   padding: 10px 10px;
   text-align: center;
-  color: #288be6;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.95);
 }
 
 .contacts-list li:first-child {
@@ -178,8 +178,8 @@ input.phone-numbers:checked ~ .contacts-list {
   display: block;
 }
 
-.main-title-wrapper {
-  margin-bottom: 22px;
+.border-style {
+  margin-bottom: 25px;
   border: 1px solid lightgrey;
 }
 
@@ -219,7 +219,8 @@ input.phone-numbers:checked ~ .contacts-list {
   letter-spacing: 8px;
   font-style: italic;
   text-align: center;
-  margin: 7px auto 0;
+  margin: 0 auto;
+  margin-top: 6px;
   color: #fff;
   background-color: rgba(30, 143, 255, 0.9);
   border: 1px solid #0d6dc7;
@@ -243,7 +244,7 @@ input.phone-numbers:checked ~ .contacts-list {
   width: 90vw;
   max-width: 460px;
   font-size: 14px;
-  line-height: normal;
+  line-height: 1.3;
   text-align: justify;
   margin: 0 auto;
   margin-bottom: 16px;
@@ -335,6 +336,7 @@ input.phone-numbers:checked ~ .contacts-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
+  padding-left: 12px;
   border: 1px solid #e8e8e8;
 }
 
@@ -366,7 +368,7 @@ input.phone-numbers:checked ~ .contacts-list {
 }
 
 .support {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   padding: 30px 0;
   background-color: rgba(30, 143, 255, 0.9);
 }
@@ -424,17 +426,12 @@ input.phone-numbers:checked ~ .contacts-list {
 
 .support a {
   display: inline-block;
-  padding: 4px 12px;
-  vertical-align: baseline;
-  color: #fff;
-  background-color: #288be6;
-  border-radius: 14px;
-  text-decoration: none;
+  padding: 0 4px;
+  color: rgb(28, 100, 172);
 }
 
 .price-page-title {
   position: relative;
-  font-family: "Georgia", serif;
   max-width: 490px;
   margin: 40px auto;
   text-align: center;
@@ -444,6 +441,7 @@ input.phone-numbers:checked ~ .contacts-list {
   display: inline-block;
   position: relative;
   padding: 4px 8px;
+  font-family: "Georgia", serif;
   font-style: italic;
   color: rgb(17, 7, 100);
   background-color: rgba(255, 255, 255, 0.9);
@@ -453,7 +451,7 @@ input.phone-numbers:checked ~ .contacts-list {
   position: absolute;
   content: "";
   display: block;
-  top: -20%;
+  top: -0.3em;
   left: 0;
   z-index: -1;
   width: 100%;
@@ -464,6 +462,22 @@ input.phone-numbers:checked ~ .contacts-list {
   background: linear-gradient(12deg, #0d6dc7, #008080);
   border-radius: 50%;
   transform: rotate(-12deg);
+}
+
+.support-page {
+  margin-bottom: 25px;
+}
+
+.support-page-title {
+  width: 85%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  text-align: center;
+  background: url("img/pointer.png") no-repeat;
+  background-size: 105px auto;
+  border: 2px solid #0d6dc7d5;
 }
 
 aside {
@@ -481,18 +495,19 @@ aside a {
   color: #fff;
   text-shadow: 0 0 1px #000;
   background: url("img/move.svg") no-repeat;
-  background-position: right 2px top 50%;
-  background-size: 20px auto;
-  background-color: rgb(35, 23, 145);
+  background-position: right -2px top 50%;
+  background-size: 26px auto; 
+  background-color:rgb(35, 23, 145);
   border: 1px solid #000;
 }
 
 .page-footer {
+  color: lemonchiffon;
   background-color: rgb(17, 7, 100);
 }
 
 .page-footer .wrapper {
-  line-height: 50px;
+  line-height: 70px;
 }
 
 .page-footer a {
@@ -505,10 +520,15 @@ aside a {
   text-decoration: none;
 }
 
-@media screen and (min-width: 280px) and (max-width: 425px) {
+@media screen and (min-width: 280px) and (max-width: 428px) {
   .main-title-wrapper {border-left: none; border-right: none;}
   .main-page-title::after {width: 3.4em; height: 3.4em;}
   .locality-list {grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));}
+  .support-page-title {background-position: 0 10px; background-size: 85px auto;}
+}
+
+@media screen and (min-width: 280px) and (max-width: 600px) {
+  .support-page-title {width: 100%; box-sizing: border-box; padding-left: 100px;}
 }
 
 @media screen and (min-width: 428px) and (max-width: 768px) {
