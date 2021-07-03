@@ -538,6 +538,7 @@ aside a {
 
 @media screen and (min-width: 280px) and (max-width: 600px) {
   .support-page-title {width: 100%; box-sizing: border-box; padding-left: 100px; border-left: none; border-right: none;}
+  .support-page-title::after {padding-left: 105px;}
 }
 
 @media screen and (min-width: 428px) and (max-width: 768px) {
