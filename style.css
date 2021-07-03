@@ -57,7 +57,7 @@ th, td {
 
 .page-header {
   margin-bottom: 20px;
-  background-color:#0099ef;
+  background-color: #0099ef;
 }
 
 .wrapper {
@@ -270,8 +270,6 @@ input.phone-numbers:checked ~ .contacts-list {
   color: #fff;
   background-color: #288be6;
   text-shadow: 0 0 2px #000;
-  outline: 1px solid #fff;
-  outline-offset: -3px;
 }
 
 .promo p {
@@ -321,8 +319,6 @@ input.phone-numbers:checked ~ .contacts-list {
   color: #fff;
   background-color: #288be6;
   text-shadow: 0 0 2px #000;
-  outline: 1px solid #fff;
-  outline-offset: -3px; 
 }
 
 .location p {
