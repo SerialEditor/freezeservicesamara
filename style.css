@@ -32,7 +32,7 @@ table {
   max-width: 720px;
   margin: 15px 0;
   margin-left: 10px;
-  border: 2px solid lightgrey;
+  border: 2px solid #999;
   border-collapse: collapse;
 }
 
@@ -57,7 +57,7 @@ th, td {
 
 .page-header {
   margin-bottom: 20px;
-  background-color: #0099ef;
+  background-color:#0099ef;
 }
 
 .wrapper {
@@ -322,10 +322,12 @@ input.phone-numbers:checked ~ .contacts-list {
 }
 
 .location p {
+  font-size: 18px;
   margin: 16px auto;
   padding: 0 8px;
   text-align: justify;
   text-indent: 8px;
+  color: #777;
 }
 
 .locality-list {
@@ -353,7 +355,7 @@ input.phone-numbers:checked ~ .contacts-list {
   left: -18px;
   width: 18px;
   height: 18px;
-  background-color: orange;
+  background-color:orange;
   border-radius: 50%;
 }
 
@@ -361,13 +363,13 @@ input.phone-numbers:checked ~ .contacts-list {
   grid-column: 1 / -1;
 }
 
-.support {
+.about-support {
   margin-bottom: 35px;
   padding: 30px 0;
   background-color: rgba(30, 143, 255, 0.9);
 }
 
-.support h2 {
+.about-support h2 {
   position: relative;
   width: 75%;
   max-width: 420px;
@@ -382,14 +384,14 @@ input.phone-numbers:checked ~ .contacts-list {
   border-radius: 12px;
 }
 
-.support ::after {
+.about-support ::after {
   position: absolute;
   content: "";
   width: 0;
   height: 0; 
 }
 
-.support h2::after {
+.about-support h2::after {
   top: 100%;
   left: 3px;
   border: 18px solid #fff;
@@ -398,7 +400,7 @@ input.phone-numbers:checked ~ .contacts-list {
   transform: skewX(-30deg);
 }
 
-.support p {
+.about-support p {
   position: relative;
   width: 75%;
   max-width: 720px;
@@ -409,7 +411,7 @@ input.phone-numbers:checked ~ .contacts-list {
   border-radius: 12px;
 }
 
-.support p::after {
+.about-support p::after {
   top: 100%;
   right: 3px;
   border: 18px solid #fff;
@@ -418,7 +420,7 @@ input.phone-numbers:checked ~ .contacts-list {
   transform: skewX(30deg);
 }
 
-.support a {
+.about-support a {
   display: inline-block;
   padding: 0 4px;
   color: rgb(28, 100, 172);
@@ -467,6 +469,7 @@ input.phone-numbers:checked ~ .contacts-list {
   width: 85%;
   max-width: 800px;
   margin: 0 auto;
+  margin-bottom: 15px;
   padding-top: 50px;
   padding-bottom: 15px;
   text-align: center;
@@ -487,8 +490,76 @@ input.phone-numbers:checked ~ .contacts-list {
   width: 100%;
   height: 104px;
   padding-left: 150px;
-  background-color: #0d6dc7d5;
+  background: -webkit-linear-gradient(to right,#53a0e9d5,#0d6dc7);
+  background: -o-linear-gradient(to right,#53a0e9d5,#0d6dc7);
+  background: -moz-linear-gradient(to right,#53a0e9d5,#0d6dc7);
+  background: linear-gradient(to right,#53a0e9d5,#0d6dc7);
   background-clip: content-box;
+}
+
+.self-help {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 20px;
+  row-gap: 10px;
+  padding: 10px;
+  color: #666666;
+}
+
+.self-help p:first-of-type {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  align-self: center;
+  line-height: 1.4;
+  text-align: justify;
+  text-indent: 8px;
+  margin: 0;
+}
+
+.inner-grid {
+  display: grid;
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 15px;
+} 
+
+.problem-variant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.problem-variant h3 {
+  align-self: stretch;
+  font-size: 16px;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 0 1px #000;
+  background-color: #0d6dc7;
+} 
+
+.caution {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  text-align: justify;
+  margin: 0;
+  padding: 8px;
+  border: 2px solid darkmagenta;
+  border-radius: 6px;
+}
+
+.caution strong {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #fff;
+  text-shadow: 0 0 2px #000;
+  background-color: #0d6dc7;
 }
 
 aside {
@@ -517,17 +588,25 @@ aside a {
 }
 
 .page-footer .wrapper {
-  line-height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+  text-align: center;
 }
 
 .page-footer a {
-  display: inline-block;
-  line-height: normal;
-  margin-left: 4vw;
-  padding: 8px 12px;
-  vertical-align: middle;
+  flex-basis: 125px;
+  padding: 8px;
   color: lemonchiffon;
   text-decoration: none;
+}
+
+.page-footer p{
+  flex-basis: 270px;
+  margin: 0;
+  padding: 8px;
 }
 
 @media screen and (min-width: 280px) and (max-width: 428px) {
@@ -535,13 +614,24 @@ aside a {
   .main-page-title::after {width: 3.4em; height: 3.4em;}
   .locality-list {grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));}
   .support-page-title {background-position: 0 10px; background-size: 85px auto;}
+  .page-footer .wrapper {justify-content: space-around;}
 }
 
 @media screen and (min-width: 280px) and (max-width: 600px) {
   .support-page-title {width: 100%; box-sizing: border-box; padding-left: 100px;}
   .support-page-title::after {padding-left: 105px;}
+  .self-help {grid-template-rows: auto auto auto;}
+  .self-help p:first-of-type {grid-column: 1 / 3;}
+  .caution {grid-column: 1 / 3; grid-row: 2 / 3;}
+  .inner-grid {grid-row: 3 / 4;}
 }
 
 @media screen and (min-width: 428px) and (max-width: 768px) {
   .advantages ul {justify-content: space-around;}
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .self-help {grid-template-rows: auto auto auto;}
+  .caution {grid-column: 1 / 2; grid-row: 2 / 3;}
+  .inner-grid {grid-row: 3 / 4;}
 }
