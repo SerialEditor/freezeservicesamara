@@ -358,7 +358,7 @@ input.phone-numbers:checked ~ .contacts-list {
   background-color:rgba(30, 143, 255, 0.9);
   background-image: url("img/check.svg");
   background-repeat: no-repeat;
-  background-position: 2px 1px;
+  background-position: 3px 3px;
   background-size: 60%;
   border-radius: 50%;
   box-shadow: 0 0 1px #000;
