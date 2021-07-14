@@ -359,7 +359,9 @@ input.phone-numbers:checked ~ .contacts-list {
   background-image: url("img/check.svg");
   background-repeat: no-repeat;
   background-position: 2px 1px;
-  background-size: 75%;
+  background-size: 70%;
+  border-radius: 50%;
+  box-shadow: 0 0 1px #000;
 }
 
 .locality-list li:first-child {
