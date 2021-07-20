@@ -168,6 +168,10 @@ input.phone-numbers {
   background-color: rgba(255, 255, 255, 0.95);
 }
 
+.contacts-list ul {
+  margin-top: 12px;
+}
+
 .contacts-list li {
   font-size: 18px;
   font-weight: 600;
@@ -176,7 +180,6 @@ input.phone-numbers {
 
 .contacts-list > li:first-child {
   font-size: inherit;
-  line-height: 1.4;
   font-weight: inherit;
   color: #120af8;
 }
