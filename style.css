@@ -169,12 +169,17 @@ input.phone-numbers {
 }
 
 .contacts-list li {
+  font-size: 18px;
   line-height: 1.4;
+  font-weight: 500;
   color: #777;
 }
 
 .contacts-list li:last-child {
   margin-top: 12px;
+  color: #08e8de;
+  border: 1px solid #08e8de;
+  border-radius: 6px;
 }
 
 .contacts-list a {
