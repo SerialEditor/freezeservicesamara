@@ -170,18 +170,19 @@ input.phone-numbers {
 
 .contacts-list li {
   font-size: 18px;
-  line-height: 1.4;
   font-weight: 600;
   margin-bottom: 12px;
 }
 
 .contacts-list > li:first-child {
   font-size: inherit;
+  line-height: 1.4;
   font-weight: inherit;
   color: #120af8;
 }
 
 .contacts-list > li:last-child {
+  margin-bottom: 0;
   padding: 12px 0;
   color: #30d5c8;
   border: 2px solid #30d5c8;
