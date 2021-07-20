@@ -170,26 +170,29 @@ input.phone-numbers {
 
 .contacts-list li {
   line-height: 1.4;
-  color: #774587;
+  color: #08457e;
 }
 
-.contacts-list li:last-of-type {
+.contacts-list li:nth-of-type(4) {
   font-size: 18px;
   font-weight: 600;
   margin-top: 12px;
   padding: 12px 0;
-  color: #08e8de;
-  border: 2px solid #08e8de;
+  color: #40e0d0;
+  border: 2px solid #40e0d0;
   border-radius: 8px;
 }
 
 .contacts-list a {
   display: block;
+  font-size: 18px;
   line-height: 1.4;
+  font-weight: 600;
   padding: 12px 25px;
   color: #288be6;
   text-decoration: none;
-  border-bottom: 1px solid #288be6;
+  border: 2px solid #288be6;
+  border-radius: 8px;
 }
 
 input.phone-numbers:checked ~ .contacts-list {
