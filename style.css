@@ -169,25 +169,27 @@ input.phone-numbers {
 }
 
 .contacts-list li {
+  font-size: 18px;
   line-height: 1.4;
-  margin-bottom: 8px;
-  color: #08457e;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.contacts-list > li:first-child {
+  font-size: inherit;
+  font-weight: inherit;
+  color: #120af8;
 }
 
 .contacts-list > li:last-child {
-  font-size: 18px;
-  font-weight: 600;
   padding: 12px 0;
-  color: #40e0d0;
-  border: 2px solid #40e0d0;
+  color: #30d5c8;
+  border: 2px solid #30d5c8;
   border-radius: 8px;
 }
 
 .contacts-list a {
   display: block;
-  font-size: 18px;
-  line-height: 1.4;
-  font-weight: 600;
   padding: 12px 25px;
   color: #288be6;
   text-decoration: none;
