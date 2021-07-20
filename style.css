@@ -173,7 +173,7 @@ input.phone-numbers {
   color: #08457e;
 }
 
-.contacts-list li:nth-of-type(4) {
+.contacts-list > li:last-child {
   font-size: 18px;
   font-weight: 600;
   margin-top: 12px;
