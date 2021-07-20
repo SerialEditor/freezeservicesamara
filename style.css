@@ -170,13 +170,13 @@ input.phone-numbers {
 
 .contacts-list li {
   line-height: 1.4;
+  margin-bottom: 8px;
   color: #08457e;
 }
 
 .contacts-list > li:last-child {
   font-size: 18px;
   font-weight: 600;
-  margin-top: 12px;
   padding: 12px 0;
   color: #40e0d0;
   border: 2px solid #40e0d0;
