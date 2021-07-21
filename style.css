@@ -161,8 +161,8 @@ input.phone-numbers {
   top: 100%;
   right: 0;
   z-index: 1;
-  width: 250px;
-  max-width: 250px;
+  width: 280px;
+  max-width: 280px;
   padding: 10px 10px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.95);
@@ -179,10 +179,8 @@ input.phone-numbers {
 }
 
 .contacts-list > li:first-child {
-  font-size: inherit;
-  font-weight: inherit;
   padding-top: 1px;
-  color: #120af8;
+  color: #708090;
 }
 
 .contacts-list > li:last-child {
