@@ -181,7 +181,7 @@ input.phone-numbers {
 .contacts-list > li:first-child {
   font-weight: inherit;
   padding-top: 1px;
-  color: darkmagenta;
+  color: #310062;
 }
 
 .contacts-list > li:last-child {
