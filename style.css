@@ -179,8 +179,9 @@ input.phone-numbers {
 }
 
 .contacts-list > li:first-child {
+  font-weight: inherit;
   padding-top: 1px;
-  color: #708090;
+  color: darkmagenta;
 }
 
 .contacts-list > li:last-child {
