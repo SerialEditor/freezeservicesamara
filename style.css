@@ -303,6 +303,10 @@ input.phone-numbers:checked ~ .contacts-list {
   text-transform: uppercase;
 }
 
+.promo p.refrigerator {
+  padding-top: 10px;
+}
+
 .freezer {
   background: url("files/freezer.svg") no-repeat 50% 50%;
   background-size: 50% auto;
