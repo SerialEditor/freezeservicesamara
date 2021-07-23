@@ -291,6 +291,7 @@ input.phone-numbers:checked ~ .contacts-list {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  align-items: flex-end;
   text-align: center;
 }
 
