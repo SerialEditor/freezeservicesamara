@@ -174,12 +174,10 @@ input.phone-numbers {
 
 .contacts-list li {
   font-size: 18px;
-  font-weight: 600;
   margin-bottom: 12px;
 }
 
 .contacts-list > li:first-child {
-  font-weight: inherit;
   padding-top: 1px;
   color: #708090;
 }
@@ -188,8 +186,7 @@ input.phone-numbers {
   margin-bottom: 0;
   padding: 12px 0;
   color: #06bab2;
-  border: 2px solid #06bab2;
-  border-radius: 8px;
+  border-bottom: 1px solid #06bab2;
 }
 
 .contacts-list a {
@@ -197,8 +194,7 @@ input.phone-numbers {
   padding: 12px 25px;
   color: #288be6;
   text-decoration: none;
-  border: 2px solid #288be6;
-  border-radius: 8px;
+  border-bottom: 1px solid #288be6;
 }
 
 input.phone-numbers:checked ~ .contacts-list {
