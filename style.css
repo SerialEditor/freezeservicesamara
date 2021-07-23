@@ -103,6 +103,10 @@ td[colspan="2"] {
   transform: skew(-20deg);
 }
 
+.navigation-menu li:first-child {
+  margin-left: 0.25em;
+}
+
 .navigation-menu li:last-child {
   border-right: none;
   margin-right: 0.25em;
