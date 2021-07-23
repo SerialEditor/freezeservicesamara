@@ -297,19 +297,10 @@ input.phone-numbers:checked ~ .contacts-list {
 .promo .flex-container p {
   flex-basis: 208px;
   font-weight: 600;
-  padding-top: 180px;
+  padding-top: 10px;
   padding-bottom: 10px;
   color: indianred;
   text-transform: uppercase;
-}
-
-.promo p.refrigerator, .promo p.freezer {
-  padding-top: 10px;
-}
-
-.chest {
-  background: url("files/freezer_chest.svg") no-repeat 50% 80px;
-  background-size: 80% auto;
 }
 
 .advantages {
