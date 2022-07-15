@@ -366,21 +366,6 @@ input.phone-numbers:checked ~ .contacts-list {
   color: indianred;
 }
 
-.locality-list li::before {
-  position: absolute;
-  content: "";
-  display: block;
-  top: 8px;
-  left: -18px;
-  width: 20px;
-  height: 20px;
-  background-color:rgba(30, 143, 255, 0.9);
-  background-image: url("img/check.svg");
-  background-repeat: no-repeat;
-  background-position: 4px 3px;
-  background-size: 60%;
-}
-
 .locality-list li:first-child {
   grid-column: 1 / -1;
 }
